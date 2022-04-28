@@ -4,7 +4,7 @@ stack: jdk 11  # версия JDK
 
 branches:
   only:
-    - master # ветка git
+    - main # ветка git
 
 build: off  # будем использовать свой скрипт сборки
 
@@ -14,4 +14,8 @@ install:
 
 build_script:
   - chmod +x gradlew
+<<<<<<< HEAD
   - ./gradlew test --info  # запускаем тест, флаг --info позволяет выводить больше информации
+=======
+  - ./gradlew test --info  # запускаем тест, флаг --info позволяет выводить больше информации
+>>>>>>> 2a9e2a05c507cfac35ae75953a057a1175238614
